@@ -6,6 +6,11 @@
     <script src="https://www.youtube.com/iframe_api"></script>
 
     <style>
+        html,
+        body {
+            background-color: #000;
+        }
+
         .responsive-container {
             position: relative;
             padding-bottom: 53.25%;
@@ -69,7 +74,7 @@
                 onApiChange: function (event) { YouTubePlayerBridge.sendApiChange() }
             },
 
-            playerVars: <<injectedPlayerVars>>
+            playerVars: << injectedPlayerVars >>
                 
     		});
     }
